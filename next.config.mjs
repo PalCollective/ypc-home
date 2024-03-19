@@ -6,4 +6,4 @@ const nextConfig = {
 	basePath: "/ypc-home",
 }
 
-module.exports = nextConfig
+export default nextConfig
