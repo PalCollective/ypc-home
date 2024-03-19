@@ -16,45 +16,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={inter.className}>
-				{/* navbar: saving this for when the rest of the UI is built */}
-				{/* <nav className="globalNav">
-					<ul className="siteNav">
-						<li>
-							<a className="home">
-                <img src="Symbol.svg" />
-                </a>
-						</li>
-						<li>
-							<a>About PalCollective</a>
-						</li>
-						<li>
-							<a>How it works</a>
-						</li>
-						<li>
-							<a>Impact</a>
-						</li>
-						<li>
-							<a>Get involved</a>
-						</li>
-						<li>
-							<a>FAQs</a>
-						</li>
-						<li>
-							<a>Contact us</a>
-						</li>
-					</ul>
-					<ul className="iconNav">
-						<li>
-							<button>Search</button>
-						</li>
-						<li>
-							<button>Language</button>
-						</li>
-					</ul>
-				</nav> */}
-				{children}
-			</body>
+			<body className={inter.className}>{children}</body>
 		</html>
 	)
 }
