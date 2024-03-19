@@ -15,26 +15,6 @@ export default function Home() {
 						PalCollective is building bridges of humanity, one connection at a
 						time.
 					</h2>
-					{/* <div className=" w-full flex justify-between">
-						<button className=" border py-4 px-8 rounded-md bg-green-700 text-neutral-50">
-							<p className="font-bold">
-								Our Mission <br />
-							</p>
-							Learn About PalCollective
-						</button>
-						<button className=" border py-4 px-8 rounded-md bg-green-700 text-neutral-50">
-							<p className="font-bold">
-								Become a Volunteer <br />
-							</p>
-							Share Your Skills
-						</button>
-						<button className=" border py-4 px-8 rounded-md bg-green-700 text-neutral-50">
-							<p className="font-bold">
-								Donate <br />
-							</p>
-							Help Us Amplify Humanity
-						</button>
-					</div> */}
 				</div>
 			</div>
 			<div className="w-full md:bg-hero h-96 bg-center bg-cover sm:bg-none "></div>
