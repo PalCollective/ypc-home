@@ -46,10 +46,15 @@ export default function RootLayout({
 						{/* </ul> */}
 						{/* <ul className="iconNav"> */}
 						<li>
-							<button>Search</button>
+							<button>
+								{/* Search */}
+								<img src="/search.svg" />
+							</button>
 						</li>
 						<li>
-							<button>Language</button>
+							<button>
+								<img src="/globe.svg" />
+							</button>
 						</li>
 					</ul>
 				</nav>
