@@ -18,10 +18,15 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={inter.className}>
 				{/* navbar: saving this for when the rest of the UI is built */}
-				<nav className="globalNav">
+				{/* <nav className="globalNav">
 					<ul className="siteNav">
 						<li>
-							<a>About</a>
+							<a className="home">
+                <img src="Symbol.svg" />
+                </a>
+						</li>
+						<li>
+							<a>About PalCollective</a>
 						</li>
 						<li>
 							<a>How it works</a>
@@ -47,7 +52,7 @@ export default function RootLayout({
 							<button>Language</button>
 						</li>
 					</ul>
-				</nav>
+				</nav> */}
 				{children}
 			</body>
 		</html>
