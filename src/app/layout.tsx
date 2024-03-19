@@ -17,14 +17,35 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<nav>
-					<ul className="globalNav">
-						<li>About</li>
-						<li>How it works</li>
-						<li>Impact</li>
-						<li>Get involved</li>
-						<li>FAQs</li>
-						<li>Contact us</li>
+				{/* navbar: saving this for when the rest of the UI is built */}
+				<nav className="globalNav">
+					<ul className="siteNav">
+						<li>
+							<a>About</a>
+						</li>
+						<li>
+							<a>How it works</a>
+						</li>
+						<li>
+							<a>Impact</a>
+						</li>
+						<li>
+							<a>Get involved</a>
+						</li>
+						<li>
+							<a>FAQs</a>
+						</li>
+						<li>
+							<a>Contact us</a>
+						</li>
+					</ul>
+					<ul className="iconNav">
+						<li>
+							<button>Search</button>
+						</li>
+						<li>
+							<button>Language</button>
+						</li>
 					</ul>
 				</nav>
 				{children}

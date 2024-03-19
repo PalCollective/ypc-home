@@ -33,10 +33,22 @@ body {
 }
 
 .globalNav {
-	width: 100%;
+	display: flex;
+}
+.iconNav {
+	width: 20%;
 	display: flex;
 	justify-content: space-around;
-	background-color: #009945;
+	li {
+		padding: 24px;
+	}
+}
+
+.siteNav {
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	background-color: #008544;
 	li {
 		flex-basis: 150px;
 		padding: 24px;
