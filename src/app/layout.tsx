@@ -57,21 +57,21 @@ export default function RootLayout({
 						</li>
 						<li>
 							<a className="linkText">Donate</a>
-						</li>*/}
-					</ul>
-					{/*<ul className="iconNav">
+						</li> */}
+						{/* </ul>
+					<ul className="iconNav">
 						<li>
 							<button>
-								{/* Search */}
-					{/* <img src="/search.svg" />
+								{/* Search
+								<img src="/search.svg" />
 							</button>
 						</li>
 						<li>
 							<button>
 								<img src="/globe.svg" />
 							</button>
-						</li>
-					</ul>  */}
+						</li> */}
+					</ul>
 				</nav>
 				{children}
 			</body>

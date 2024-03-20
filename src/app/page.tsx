@@ -1,6 +1,7 @@
 import About from "@/components/about/About"
 
 import styles from "./home.module.css"
+import HowItWorks from "@/components/howItWorks/howItWorks"
 
 export default function Home() {
 	return (
@@ -17,7 +18,7 @@ export default function Home() {
 						PalCollective is building bridges of humanity, one connection at a
 						time.
 					</h2>
-					<div className={styles.buttonContainer}>
+					{/* <div className={styles.buttonContainer}>
 						<button className={styles.homePageButton}>
 							<p>
 								Our Mission <br />
@@ -40,11 +41,12 @@ export default function Home() {
 								</span>
 							</p>
 						</button>
-					</div>
+					</div> */}
 				</div>
 			</div>
 			<div className={styles.heroImage}></div>
 			<About id="about" />
+			{/* <HowItWorks id="how-it-works" /> */}
 		</main>
 	)
 }

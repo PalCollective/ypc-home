@@ -2,7 +2,7 @@ import styles from "./about.module.css"
 
 const About = (props: { id: string }) => {
 	return (
-		<section id={props.id} className={styles.aboutPageContainer}>
+		<section id={props.id} className={styles.pageContainer}>
 			<div className={styles.titleLogoContainer}>
 				<h2 className={styles.headerText}>Our Story</h2>
 				<p className={styles.subHeaderText}>
