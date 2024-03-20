@@ -1,41 +1,50 @@
-import Image from "next/image"
+import About from "@/components/about/About"
+
+import styles from "./home.module.css"
 
 export default function Home() {
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-between  bg-white text-black">
-			<div className="flex flex-col md:flex-row w-full py-10 px-10">
-				<div className="h-56 w-full md:w-1/3 flex justify-center items-center bg-logo bg-cover bg-center"></div>
-				<div className=" h-56   w-full md:w-2/3 flex flex-col justify-between">
-					<h1 className="font-bold text-3xl">
-						Hope in times of crisis: Connecting Gaza with the World
+		<main className={styles.homeContainer}>
+			<div className={styles.headerSection}>
+				<div className={styles.logoContainer}></div>
+				<div className={styles.headerContainer}>
+					<h1 className={styles.headerText}>
+						Hope in times of crisis:
+						<br />
+						Connecting Gaza with the World
 					</h1>
-					<h2 className="font-bold text-xl hidden md:flex">
+					<h2 className={styles.subHeaderText}>
 						PalCollective is building bridges of humanity, one connection at a
 						time.
 					</h2>
-					<div className=" w-full flex justify-between">
-						<button className=" border py-4 px-8 rounded-md bg-green-700 text-neutral-50">
-							<p className="font-bold">
+					<div className={styles.buttonContainer}>
+						<button className={styles.homePageButton}>
+							<p>
 								Our Mission <br />
+								<span className={styles.buttonSubText}>
+									Learn About PalCollective
+								</span>
 							</p>
-							Learn About PalCollective
 						</button>
-						<button className=" border py-4 px-8 rounded-md bg-green-700 text-neutral-50">
-							<p className="font-bold">
+						<button className={styles.homePageButton}>
+							<p>
 								Become a Volunteer <br />
+								<span className={styles.buttonSubText}>Share Your Skills</span>
 							</p>
-							Share Your Skills
 						</button>
-						<button className=" border py-4 px-8 rounded-md bg-green-700 text-neutral-50">
-							<p className="font-bold">
+						<button className={styles.homePageButton}>
+							<p>
 								Donate <br />
+								<span className={styles.buttonSubText}>
+									Help Us Amplify Humanity
+								</span>
 							</p>
-							Help Us Amplify Humanity
 						</button>
 					</div>
 				</div>
 			</div>
-			<div className="w-full md:bg-hero h-96 bg-center bg-cover sm:bg-none "></div>
+			<div className={styles.heroImage}></div>
+			<About id="about" />
 		</main>
 	)
 }

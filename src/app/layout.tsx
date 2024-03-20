@@ -15,19 +15,32 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
+			<head>
+				<link rel="preconnect" href="https://fonts.googleapis.com" />
+				<link
+					rel="preconnect"
+					href="https://fonts.gstatic.com"
+					crossOrigin=""
+				/>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100..900&family=EB+Garamond&family=Questrial&family=Quicksand&display=swap"
+					rel="stylesheet"
+				/>
+			</head>
 			<body className={inter.className}>
-				{/* navbar: saving this for when the rest of the UI is built */}
 				<nav className="globalNav">
 					<ul className="siteNav">
 						<li className="home">
-							<a>
+							<a href="/">
 								<img src="Symbol.svg" />
 							</a>
 						</li>
 						<li>
-							<a className="linkText">About PalCollective</a>
+							<a className="linkText" href="#about">
+								About PalCollective
+							</a>
 						</li>
-						<li>
+						{/* <li>
 							<a className="linkText">How it works</a>
 						</li>
 						<li>
@@ -42,12 +55,15 @@ export default function RootLayout({
 						<li>
 							<a className="linkText">Contact us</a>
 						</li>
-						{/* </ul> */}
-						{/* <ul className="iconNav"> */}
+						<li>
+							<a className="linkText">Donate</a>
+						</li>*/}
+					</ul>
+					{/*<ul className="iconNav">
 						<li>
 							<button>
 								{/* Search */}
-								<img src="/search.svg" />
+					{/* <img src="/search.svg" />
 							</button>
 						</li>
 						<li>
@@ -55,7 +71,7 @@ export default function RootLayout({
 								<img src="/globe.svg" />
 							</button>
 						</li>
-					</ul>
+					</ul>  */}
 				</nav>
 				{children}
 			</body>
