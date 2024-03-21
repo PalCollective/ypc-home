@@ -36,10 +36,12 @@ body {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-	background-color: #008544;
+	background-color: #fefaf8;
+	color: #000;
 	position: fixed;
-	font-size: 24px;
-	font-family: "Big Shoulders Text", sans-serif;
+	font-size: 20px;
+	font-family: "Poppins", sans-serif;
+	border-bottom: 1px solid black;
 }
 .iconNav {
 	display: flex;
@@ -92,6 +94,8 @@ body {
 		}
 	}
 }
+
+/* Hope in times of crisis connecting Gaza with the World */
 
 .home {
 	a {

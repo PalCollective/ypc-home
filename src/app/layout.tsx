@@ -23,10 +23,11 @@ export default function RootLayout({
 					crossOrigin=""
 				/>
 				<link
-					href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100..900&family=EB+Garamond&family=Questrial&family=Quicksand&display=swap"
+					href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sail&display=swap"
 					rel="stylesheet"
 				/>
 			</head>
+
 			<body className={inter.className}>
 				<nav className="globalNav">
 					<ul className="siteNav">
@@ -37,13 +38,15 @@ export default function RootLayout({
 						</li>
 						<li>
 							<a className="linkText" href="#about">
-								About PalCollective
+								About
 							</a>
 						</li>
-						{/* <li>
-							<a className="linkText">How it works</a>
-						</li>
 						<li>
+							<a className="linkText" href="#how-it-works">
+								How it works
+							</a>
+						</li>
+						{/*<li>
 							<a className="linkText">Impact</a>
 						</li>
 						<li>

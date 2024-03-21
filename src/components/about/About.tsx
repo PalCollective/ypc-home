@@ -3,48 +3,45 @@ import styles from "./about.module.css"
 const About = (props: { id: string }) => {
 	return (
 		<section id={props.id} className={styles.pageContainer}>
-			<div className={styles.titleLogoContainer}>
+			<div className={styles.titleTextContainer}>
 				<h2 className={styles.headerText}>Our Story</h2>
-				<p className={styles.subHeaderText}>
-					Inspired by humanity, fueled by action
-				</p>
-			</div>
-			<div className={styles.textContainer}>
+				<h3 className={styles.subHeaderText}>
+					Inspired by humanity, driven by action
+				</h3>
 				<p>
-					We came up with the idea to invite doctors, social workers and people
-					who are good at giving moral support, to offer mutual aid online to
-					people in Gaza. Since his initial social media post, over 5000 people
-					have shown interest.  Of those, around 50 people have come together to
-					organize the community and create a person-to-person app, which will
-					be ready soon.
+					Initiating an online mutual aid effort for Gaza, we invited doctors,
+					social workers, and those skilled in providing moral support. Over
+					5000 individuals responded to our initial social media post, with
+					around 50 joining forces to develop a person-to-person app soon to
+					launch.
 				</p>{" "}
 				<br />
 				<p>
-					What you’re seeing on this site is the product of these people
-					collaborating for a common goal: proof that collective efforts yield
-					results… and quickly!{" "}
+					This website showcases the{" "}
+					<span className={styles.styleSpan}>collaborative</span> efforts of
+					these individuals, highlighting the effectiveness of collective
+					action.
 				</p>
 				<br />
 				<p>
-					Our mission is to facilitate peer-to-peer communication, support,
-					advice, and friendship across our global community through basic and
-					accessible technology.
+					Our <span className={styles.styleSpan}>mission</span> : facilitate
+					global peer-to-peer communication, support, advice, and friendship
+					through accessible technology.
 				</p>
 				<br />
 				<p>
-					{" "}
-					PalCollective envisions a world where people are not in
-					life-threatening situations at the hands of oppressive regimes. Simply
-					put, we believe in a #FreePalestine{" "}
+					<span className={styles.styleSpan}> PalCollective</span>: advocates
+					for a world free from oppressive regimes, supporting #FreePalestine.
 				</p>
 				<br />
 				<p>
-					Until that day, we envision a way for people in these dire situations
-					to quickly and easily solicit the type of help they need.
-					Simultaneously, people around the world volunteer their time,
-					friendship, and professional expertise to support to the best of their
-					ability. 
+					Meanwhile, we offer swift assistance to those in need while volunteers
+					worldwide provide their time, companionship, and professional
+					expertise.
 				</p>
+			</div>
+			<div className={styles.imageContainer}>
+				<div className={styles.image} />
 			</div>
 
 			{/* <div className="flex flex-col md:flex-row w-full py-10 px-10">
