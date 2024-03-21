@@ -1,6 +1,6 @@
 import About from "@/components/about/About"
 
-import styles from "./home.module.css"
+import styles from "../global/home.module.css"
 import HowItWorks from "@/components/howItWorks/howItWorks"
 
 export default function Home() {
