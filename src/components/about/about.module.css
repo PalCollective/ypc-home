@@ -69,7 +69,7 @@
 	.imageContainer {
 		width: 35%;
 		display: flex;
-		background-image: url("/PalCollective_overview_diagram.jpg");
+		background-image: url("/About.svg");
 		background-size: contain;
 		background-position: center;
 		background-repeat: no-repeat;
