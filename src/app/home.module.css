@@ -5,7 +5,6 @@
 	align-items: center;
 	background-color: #eafaf2;
 	color: black;
-	/* padding-top: 100px; */
 	font-family: "Poppins", sans-serif;
 }
 
@@ -140,6 +139,8 @@
 @media (min-width: 800px) {
 	.headerSection {
 		flex-direction: row;
+		padding-top: 80px;
+		justify-content: center;
 	}
 
 	.logoContainer {
@@ -154,7 +155,9 @@
 	}
 	.headerContainer {
 		width: 66.6%;
+		padding-top: 0px;
 	}
+
 	.headerText {
 		font-size: 40px;
 		line-height: 38px;

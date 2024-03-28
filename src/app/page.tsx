@@ -21,11 +21,11 @@ export default function Home() {
 							About
 						</a>
 					</li>
-					<li>
+					{/* <li>
 						<a className={styles.linkText} href="#how-it-works">
 							How it works
 						</a>
-					</li>
+					</li> */}
 					{/*<li>
 							<a className="linkText">Impact</a>
 						</li>
@@ -94,7 +94,7 @@ export default function Home() {
 			</div>
 			<div className={styles.heroImage}></div>
 			<About id="about" />
-			<HowItWorks id="how-it-works" />
+			{/* <HowItWorks id="how-it-works" /> */}
 			<ContactUs id="contact-us" />
 		</main>
 	)
