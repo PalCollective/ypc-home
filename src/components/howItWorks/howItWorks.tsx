@@ -5,41 +5,51 @@ const HowItWorks = (props: { id: string }) => {
 		<section id={props.id} className={styles.pageContainer}>
 			<div className={styles.contentSection}>
 				<h2 className={styles.headerText}>How it works</h2>
-				<h3 className={styles.subHeaderText}>
-					Connecting People, Transforming Lives: A Simple 3-Step Process
-				</h3>
+
 				<div className={styles.verticalContainer}>
 					<div className={styles.horizontalContainer}>
+						<div className={styles.stepImage}>
+							<img src="/HowItWorks1.svg" />
+						</div>
 						<div className={styles.textContainer}>
-							<p className={styles.stepText}>People in Gaza connect</p>
+							<p className={styles.stepText}>Step 1</p>
 
 							<p className={styles.detailText}>
-								People in need connect securely via WhatsApp.{" "}
+								People that need help in Gaza will connect to our service and
+								ask for help.
+							</p>
+							<br />
+							<p className={styles.detailText}>
+								Volunteers that are able to deliver the help will receive the
+								request and offer their time and skills to help
 							</p>
 						</div>
-						{/* <div className={styles.imageContainer}>Img</div> */}
 					</div>
 					<div className={styles.horizontalContainer}>
+						<div className={styles.stepImage}>
+							<img src="/HowItWorks2.svg" />
+						</div>
 						<div className={styles.textContainer}>
-							<p className={styles.stepText}>Verification Process</p>
+							<p className={styles.stepText}>Step 2</p>
 
 							<p className={styles.detailText}>
-								A verification process ensures safety and trust
+								Both people in Gaza and volunteers go through a verification
+								process, with the aim to protect everyone’s privacy and consent.
 							</p>
 						</div>
-						{/* <div className={styles.imageContainer}>Img</div> */}
 					</div>
 					<div className={styles.horizontalContainer}>
+						<div className={styles.stepImage}>
+							<img src="/HowItWorks3.svg" />
+						</div>
 						<div className={styles.textContainer}>
-							<p className={styles.stepText}>
-								We’ll find you someone to support you
-							</p>
+							<p className={styles.stepText}>Step 3</p>
 
 							<p className={styles.detailText}>
-								You are matched with someone who can support you
+								Once people in Gaza have sent a request, our service will match
+								their request to a volunteer that can help them with it.
 							</p>
 						</div>
-						{/* <div className={styles.imageContainer}>Img</div> */}
 					</div>
 				</div>
 			</div>

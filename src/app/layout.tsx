@@ -29,7 +29,7 @@ export default function RootLayout({
 			</head>
 
 			<body className={inter.className}>
-				<nav className="globalNav">
+				{/* <nav className="globalNav">
 					<ul className="siteNav">
 						<li className="home">
 							<a href="/">
@@ -54,13 +54,15 @@ export default function RootLayout({
 						</li>
 						<li>
 							<a className="linkText">FAQs</a>
-						</li>
-						<li>
-							<a className="linkText">Contact us</a>
-						</li>
-						<li>
+						</li>*/}
+				{/* <li>
+					<a className="linkText" href="#contact-us">
+						Contact us
+					</a>
+				</li> */}
+				{/*<li>
 							<a className="linkText">Donate</a>
-						</li> */}
+						</li> 
 						{/* </ul>
 					<ul className="iconNav">
 						<li>
@@ -74,8 +76,8 @@ export default function RootLayout({
 								<img src="/globe.svg" />
 							</button>
 						</li> */}
-					</ul>
-				</nav>
+				{/* </ul>
+				</nav> */}
 				{children}
 			</body>
 		</html>

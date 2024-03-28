@@ -9,29 +9,27 @@ const About = (props: { id: string }) => {
 					Inspired by humanity, driven by action
 				</h3>
 				<p>
-					Initiating an online mutual aid effort for Gaza, we invited doctors,
-					social workers, and those skilled in providing moral support. Over
-					5000 individuals responded to our initial social media post, with
-					around 50 joining forces to develop a person-to-person app soon to
-					launch.
+					We came up with the idea to invite doctors, social workers and people
+					who are good at giving moral support, to offer mutual aid online to
+					people in Gaza. Since the initial social media post, over 5000 people
+					have shown interest. Of those, around 50 people have come together to
+					organize the community and create a person-to-person app, which will
+					be ready soon.
 				</p>{" "}
 				<br />
 				<p>
-					This website showcases the{" "}
-					<span className={styles.styleSpan}>collaborative</span> efforts of
-					these individuals, highlighting the effectiveness of collective
-					action.
+					This website showcases the collaborative efforts of these individuals,
+					highlighting the effectiveness of collective action.
 				</p>
 				<br />
 				<p>
-					Our <span className={styles.styleSpan}>mission</span> : facilitate
-					global peer-to-peer communication, support, advice, and friendship
-					through accessible technology.
+					Our mission: facilitate global peer-to-peer communication, support,
+					advice, and friendship through accessible technology.
 				</p>
 				<br />
 				<p>
-					<span className={styles.styleSpan}> PalCollective</span>: advocates
-					for a world free from oppressive regimes, supporting #FreePalestine.
+					PalCollective advocates for a world free from oppressive regimes,
+					supporting #FreePalestine.
 				</p>
 				<br />
 				<p>
