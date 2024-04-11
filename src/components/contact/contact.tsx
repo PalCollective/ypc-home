@@ -6,8 +6,8 @@ const ContactUs = (props: { id: string }) => {
 			<div className={styles.logoContainer}>
 				<h3 className={styles.headerText}>Contact Us</h3>
 				<br />
-				<a href="mailto:pal@collective.com" className={styles.emailText}>
-					pal@collective.com
+				<a href="mailto:info@palcollective.com" className={styles.emailText}>
+					info@palcollective.com
 				</a>
 			</div>
 		</section>
