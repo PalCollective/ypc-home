@@ -1,0 +1,125 @@
+{
+    "userId": "c9626e4d-77af-4d1a-bb9b-4d6fc5e0a99e",
+    "fields": [
+        {
+            "type": "input",
+            "label": "First Name",
+            "id": "firstName",
+            "name": "firstName",
+            "placeholder": "Enter your name",
+            "required": true,
+            "className": "formInput"
+        },
+        {
+            "type": "input",
+            "label": "Last Name",
+            "id": "lastName",
+            "name": "lastName",
+            "placeholder": "Enter your name",
+            "required": true,
+            "className": "formInput"
+        },
+        {
+            "type": "input",
+            "label": "Email",
+            "id": "email",
+            "name": "email",
+            "placeholder": "Enter your email",
+            "required": true,
+            "className": "formInput"
+        },
+        {
+            "type": "textarea",
+            "label": "Message",
+            "id": "message",
+            "name": "message",
+            "placeholder": "Enter your message",
+            "required": false,
+            "className": "formTextArea"
+        },
+        {
+            "type": "checkbox",
+            "label": "Agree to Terms",
+            "id": "agreeTerms",
+            "name": "agreeTerms",
+            "required": false,
+            "className": "checkbox"
+        },
+        {
+            "type": "dropdown",
+            "label": "Select Option",
+            "id": "selectedOption",
+            "name": "selectedOption",
+            "options": [
+                {
+                    "value": "option1",
+                    "label": "Option 1"
+                },
+                {
+                    "value": "option2",
+                    "label": "Option 2"
+                },
+                {
+                    "value": "option3",
+                    "label": "Option 3"
+                }
+            ],
+            "required": true,
+            "className": "formDropdown"
+        },
+        {
+            "type": "dependent",
+            "label": "Select Option",
+            "id": "selectedOption2",
+            "name": "dependentValue",
+            "options": [
+                {
+                    "value": "option1",
+                    "label": "Option 1"
+                },
+                {
+                    "value": "option2",
+                    "label": "Option 2"
+                },
+                {
+                    "value": "option3",
+                    "label": "Option 3"
+                }
+            ],
+            "required": true,
+            "className": "formDropdown",
+            "dependency": {
+                "field": "selectedOption",
+                "value": "option1",
+                "type": "dropdown"
+            }
+        },
+        {
+            "type": "dependent",
+            "label": "Select Option",
+            "id": "selectedOption3",
+            "name": "dependentValue2",
+            "options": [
+                {
+                    "value": "option1",
+                    "label": "Option 1"
+                },
+                {
+                    "value": "option2",
+                    "label": "Option 2"
+                },
+                {
+                    "value": "option3",
+                    "label": "Option 3"
+                }
+            ],
+            "required": true,
+            "className": "formDropdown",
+            "dependency": {
+                "field": "dependentValue",
+                "value": "option2",
+                "type": "dropdown"
+            }
+        }
+    ]
+}

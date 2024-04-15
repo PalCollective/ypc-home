@@ -4,6 +4,7 @@ import styles from "./home.module.css"
 import HowItWorks from "@/components/howItWorks/howItWorks"
 import ContactUs from "@/components/contact/contact"
 import { useState } from "react"
+import Link from 'next/link'
 
 export default function Home() {
 	const [isDropdownShowing, setDropdown] = useState()
@@ -20,6 +21,11 @@ export default function Home() {
 						<a className={styles.linkText} href="#about">
 							About
 						</a>
+					</li>
+					<li>
+						<Link className={styles.linkText} href="/formLink">
+							FormPage
+						</Link>
 					</li>
 					{/* <li>
 						<a className={styles.linkText} href="#how-it-works">

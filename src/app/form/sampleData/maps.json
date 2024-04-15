@@ -1,0 +1,20 @@
+{
+    "userId": "c9626e4d-77af-4d1a-bb9b-4d6fc5e0a99e",
+    "cases": [
+        {
+            "nickname": "Friend 1",
+            "latitude": 31.3293,
+            "longitude":  34.2486
+        },
+        {
+            "nickname": "Friend 2",
+            "latitude": 31.3064,
+            "longitude": 34.3198
+        },
+        {
+            "nickname": "Friend 3",
+            "latitude": 31.4017,
+            "longitude": 34.3537
+        }
+    ]
+}
