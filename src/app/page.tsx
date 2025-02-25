@@ -1,6 +1,6 @@
 "use client"
 import About from "@/components/about/About"
-import styles from "./home.module.css"
+import styles from "./home.module.scss"
 import HowItWorks from "@/components/howItWorks/howItWorks"
 import ContactUs from "@/components/contact/contact"
 import { useState } from "react"

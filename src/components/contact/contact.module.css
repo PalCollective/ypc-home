@@ -9,7 +9,7 @@
 }
 
 .logoContainer {
-	background-image: url("/SymbolLarge.svg");
+	background-image: url('/SymbolLarge.svg');
 	width: 100%;
 	height: 300px;
 	margin: 0 auto;
@@ -41,7 +41,7 @@
 		padding: 100px;
 	}
 	.logoContainer {
-		background-image: url("/SymbolLarge.svg");
+		background-image: url('/SymbolLarge.svg');
 		width: 50%;
 		height: auto;
 		margin: 0 auto;
